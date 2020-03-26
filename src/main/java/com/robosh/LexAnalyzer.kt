@@ -152,17 +152,17 @@ class LexAnalyzer internal constructor() {
 
     private fun initMapOfLanguageTokens() {
         mapOfLanguageTokens["if"] = Token.KEYWORD
+        mapOfLanguageTokens["goto"] = Token.KEYWORD
         mapOfLanguageTokens["true"] = Token.KEYWORD
         mapOfLanguageTokens["false"] = Token.KEYWORD
         mapOfLanguageTokens["integer"] = Token.KEYWORD
-        mapOfLanguageTokens["entry"] = Token.KEYWORD
+        mapOfLanguageTokens["start"] = Token.KEYWORD
         mapOfLanguageTokens["end"] = Token.KEYWORD
         mapOfLanguageTokens["real"] = Token.KEYWORD
         mapOfLanguageTokens["boolean"] = Token.KEYWORD
         mapOfLanguageTokens["scan"] = Token.KEYWORD
         mapOfLanguageTokens["print"] = Token.KEYWORD
-        mapOfLanguageTokens["for"] = Token.KEYWORD
-        mapOfLanguageTokens["to"] = Token.KEYWORD
+        mapOfLanguageTokens["while"] = Token.KEYWORD
         mapOfLanguageTokens["do"] = Token.KEYWORD
         mapOfLanguageTokens["="] = Token.ASSIGN_OP
         mapOfLanguageTokens["+"] = Token.ADD_OP

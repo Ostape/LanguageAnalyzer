@@ -1,15 +1,14 @@
-entry
-   if(a >= 5 + 2 * 3 * 1){
-      for a = 1 to 5 do
-      if(a + 3 + 23 * 23 > 0){
-      a = a + 1;
-      }
-       for a = 1 + 5 * 6 / 77 to 5 do
-            if(a == 3){
-            a = a + 1;
+start
+   if(b >= 5 + 2 * 3 * 1){
+      while (b >= 1) do{
+          if(b + 3 + 23 * 23 > 0) goto {
+          b = b + 1;
+          }
+           while (a <= 4 + 5 * 8) do
+                if(a == 3) goto {
+                a = a + 1;
+                }
             }
-            end
-
-            end
+       }
    }
 end
